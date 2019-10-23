@@ -1,0 +1,289 @@
+body {
+	background-attachment: fixed;
+	background-image: url("images/LOL_background.jpg");
+	overflow-x: hidden;
+	margin: 0;
+}
+
+#bgvid {
+  background-attachment: fixed;
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(images/LOL_background.jpg) no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  margin: 0;    
+}
+
+@font-face {
+    font-family: 'counter-strikeregular';
+    src: url('Fonts/counter-strike-webfont.woff2') format('woff2'),
+         url('Fonts/counter-strike-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#banniere1 {
+	border: 3px solid black;
+	background: linear-gradient(#0066cc, #003366);
+	display: block;
+	background-color: #000033;
+	height: 50px;
+	width: 100%;
+}
+
+#banniere1 p {
+	text-shadow: 6px 6px 15px Black;
+	color: #99cccc;
+	font-family: 'counter-strikeregular' Impact, "Arial Black";
+	position: relative;
+	font-size: 50px;
+	font-weight: bold;
+	top: -7px;
+	margin: 0;
+	text-align: center;
+}
+
+#menu {
+	border: 3px solid black;
+	background: linear-gradient(#33ccff, #003399);
+	min-width: 400px;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	background-color: #99cccc;
+}
+
+#menu ul {
+	margin-left: 20px;
+	left: 50%;
+	position: relative;
+	float:  left;
+	list-style-type: none;
+	padding-top: 15px;
+}
+
+#menu ul li {
+	font-size: 17px;
+	font-weight: bold;
+	font-family: 'counter-strikeregular', Impact, "Arial Black";
+	margin-left: 20px;
+	float:  left;
+	list-style-type: none;
+	position: relative;
+	left: -58%;
+}
+
+#menu ul li a {
+	border: 3px solid #DDDEDE;
+	border-radius: 10px;
+	display: inline-block;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #3399cc;
+	height: 30px;
+	width: 200px;
+	color: #020606;
+	text-decoration: none;
+}
+
+#menu ul li a:hover {
+	color: white;
+	background-color: #6699cc;
+}
+
+#banniere2 {
+	border: 3px solid black;
+	background: linear-gradient(#0066cc, #003366);
+	display: block;
+	background-color: #000033;
+	height: 50px;
+	width: 100%;
+}
+
+#contenuprincipal {
+	display: block;
+	width: 900px;
+	margin: auto;
+}
+
+#contenuprincipal p {
+	padding:12px;
+    text-align: center;
+	position: center;
+	background-color: black;
+	opacity: 0.8;
+	border: 5px groove #99cccc;
+	color: #99cccc;
+}
+
+#basdepage {
+	border-radius: 10px;
+	border: 3px solid black;
+	background: linear-gradient(#0066cc, #003366);
+	text-align: center;
+	display: block;
+	height: 50px;
+}
+
+#basdepage p {
+	font-size: 20px;
+	font-family: 'counter-strikeregular', Impact, "Arial Black";
+	color: #99cccc;
+	font-weight: bold;
+	position: relative;
+	top: -4px;
+}
+
+p { 
+	font-weight: bold;
+	color: white;
+}
+
+.galerie-summonner {
+	border: 2px solid white;
+}
+
+.Text-intro {
+	padding:12px;
+	position: center;
+	background-color: black;
+	opacity: 0.7;
+	text-align: justify;
+	border: 5px groove #99cccc;
+	color: #99cccc;
+}
+.Deroulement-partie {
+	padding:12px;
+	position: center;
+	background-color: black;
+	opacity: 0.7;
+	text-align: justify;
+	border: 5px groove #99cccc;
+	color: #99cccc;
+}
+
+.galerie-map {
+	border: 2px solid white;
+}
+.explication-map {
+	padding:12px;
+	position: center;
+	background-color: black;
+	opacity: 0.7;
+	text-align: justify;
+	border: 5px groove #99cccc;
+	color: #99cccc;
+}
+
+.toplanetext {
+	float:  "left";
+	padding:12px;
+	position: center;
+	background-color: black;
+	opacity: 0.7;
+	text-align: justify;
+	border: 5px groove #99cccc;
+	color: #99cccc;
+}
+.toplanerflotant {
+	vertical-align: middle;
+}
+
+.junglertext {
+	float:  "left";
+	padding:12px;
+	position: center;
+	background-color: black;
+	opacity: 0.7;
+	text-align: justify;
+	border: 5px groove #99cccc;
+	color: #99cccc;
+}
+.midlanetext {
+	float:  "left";
+	padding:12px;
+	position: center;
+	background-color: black;
+	opacity: 0.7;
+	text-align: justify;
+	border: 5px groove #99cccc;
+	color: #99cccc;
+}
+
+.adctext {
+	float:  "left";
+	padding:12px;
+	position: center;
+	background-color: black;
+	opacity: 0.7;
+	text-align: justify;
+	border: 5px groove #99cccc;
+	color: #99cccc;
+}
+
+.supporttext {
+	float: "left";
+	padding:12px;
+	position: center;
+	background-color: black;
+	opacity: 0.7;
+	text-align: justify;
+	border: 5px groove #99cccc;
+	color: #99cccc;
+}
+
+.LOLlogo {
+	position: center;
+}
+
+.maptext {
+	float: "left";
+	padding:12px;
+	position: center;
+	background-color: black;
+	opacity: 0.85;
+	text-align: justify;
+	border: 5px groove #99cccc;
+	color: #99cccc;
+}
+
+
+/*background-color: #000033;
+<img src="images/top_lane.jpg" class="toplanerflotant" alt="toplane photo" />  <br></br>
+
+/* body {
+	background-attachment: fixed;
+	background-image: url("images/LOL_background.jpg");
+	overflow-x: hidden;
+	margin: 0;
+}
+
+/* #bgvid {
+  background-attachment: fixed;
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(Shadow_Kayn.jpg) no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  margin: 0;
+}
+/* <video autoplay muted loop poster="Shadow_Kayn.jpg" id="bgvid">
+    <source src="Shadow_Kayn.mp4" type="video/mp4">
+    <source src="Shadow_Kayn.webm" type="video/webm">
+    </video>
+
+
+    <div id="Contenu2">
+      <p> ...</p>
+    </div>
+
+/* body {
+	background-attachment: fixed;
+	background-image: url("images/LOL_background.jpg");
+	overflow-x: hidden;
+	margin: 0;
+}
